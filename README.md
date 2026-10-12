@@ -33,7 +33,7 @@ Trong bước `actions/setup-java@v5` đã thêm tham số:
     distribution: 'temurin'
     cache: 'gradle'
 ```
-
+ 
 `cache: 'gradle'` khiến `setup-java` tự động:
 
 - Tính khóa cache (cache key) dựa trên các tệp `**/*.gradle*`, `**/gradle-wrapper.properties`.
